@@ -1,0 +1,39 @@
+
+body {
+    background: rgba(173, 216, 230, 0.493);
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+    font-family: sans-serif;
+}
+.month {
+    text-align: center;
+    background: rgba(0, 255, 221, 0.397);
+    font-size:2.5em;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    border: 1px solod skyblue;
+}
+table, th, td {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid skyblue;
+}
+tr, th, td{
+    padding: 15px;
+}
+th {
+    background: rgb(0, 255, 128);
+    color: rgb(5, 5, 5);
+}
+td {
+    background: rgb(0, 183, 255);
+}
+td:hover {
+    background: yellow;
+}
